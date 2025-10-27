@@ -1,0 +1,21 @@
+sort1: bubble sort
+sort2: merge sort
+sort3: selection sort
+
+
+
+sort1 uses: Bubble Sort
+How do you know?: This program was slow on random data (O(n^2)),
+but became instantly fast (O(n)) on pre-sorted data (like 'sorted50000.txt'). Bubble Sort has a mechanism
+to stop when no swaps are made, identifying it as the best-case O(n) algorithm.
+
+
+sort2 uses: Merge Sort
+How do you know?: This program was the fastest overall, consistently showing O(n log n) runtime on both random
+ and sorted data.
+ Merge Sort's divide-and-conquer strategy makes it the most efficient algorithm for large datasets.
+
+
+sort3 uses: Selection Sort
+How do you know?: This program was slow on random data (O(n^2)) and remained slow on pre-sorted data.
+Selection Sort must always check every remaining element, making its performance O(n^2) even in the best case.
